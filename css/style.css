@@ -3,6 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-image: url('../img/natural-pattern.png');
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  list-style: none;
+  color: green;
+  text-decoration: none;
+}
 .container{
   width: 1000px;
   margin: 20px auto;
@@ -11,11 +20,58 @@
   float: left;
 }
 /* header */
-header{
-  /* da cancellare */
-  height: 400px;
-  background-color: green;
-  /* /da cancellare */
+.top-header{
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/natural-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid white;
+}
+.main-image{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.title{
+  font-size: 15px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+.title img{
+  width: 80%;
+}
+nav{
+  height: 50px;
+  background-color: grey;
+  width: 100%;
+}
+.menu{
+  list-style: none;
+  text-align: center;
+  line-height: 48px;
+}
+.menu li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.menu li:hover{
+  background-color: white;
+  border-bottom: 2px solid green;
+  color: black;
+}
+.menu a{
+  color: white;
+}
+.menu li:hover a{
+  color: grey;
 }
 /* main */
 main{
