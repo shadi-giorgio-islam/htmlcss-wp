@@ -8,7 +8,6 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 a{
-  list-style: none;
   color: green;
   text-decoration: none;
 }
@@ -84,10 +83,34 @@ main::after{
 }
 .themes{
   width: 20%;
-  /* da cancellare */
-  height: 230px;
-  background-color: lightblue;
-  /* /da cancellare */
+  background-color: white;
+}
+.themes ul{
+  list-style-type: none;
+}
+.themes ul li{
+    padding: 10px;
+}
+.fas {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+.fas:hover {
+    opacity: 0.7;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.aside-title{
+  padding: 10px;
+}
+.aside-title h3{
+  color: #504741;
+  display: inline-block;
 }
 .articles{
   width: 56%;
