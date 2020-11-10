@@ -115,10 +115,18 @@ main::after{
 .articles{
   width: 56%;
   margin: 0 2%;
-  /* da cancellare */
-  height: 400px;
-  background-color: violet;
-  /* /da cancellare */
+  background-color: white;
+}
+.content{
+  padding: 10px;
+}
+.articles h3{
+  color: #504741;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.articles p{
+  line-height: 1.6;
 }
 .widgets{
   width: 20%;
